@@ -20,7 +20,7 @@ public class EnemyController : MonoBehaviour
 
         if (distance <= lookRadius) 
         {
-            agent.SetDestination(target.position);
+            agent.SetDestination(target.position); //The target will be the player, and we set the destination of the Navmesh agent to be the same as the player, letting it chase.
 
             if (distance <= agent.stoppingDistance)
             {

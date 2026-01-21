@@ -14,7 +14,7 @@ public class MovingPlatform : MonoBehaviour
         if (other.gameObject == player)
         {
             Debug.Log("Player attached to the moving platform!");
-            player.transform.parent = transform;
+            player.transform.parent = transform; // Setting a game object's "parent" is basically the same as attaching the object to it
         }
     }
 

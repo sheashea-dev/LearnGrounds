@@ -3,6 +3,8 @@ using TMPro;
 
 public class InventoryUI : MonoBehaviour
 {
+    // This script will have our UI score update as we collect each item.
+
     private TextMeshProUGUI itemText;
 
     void Start()

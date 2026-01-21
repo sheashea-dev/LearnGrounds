@@ -41,8 +41,8 @@ public class PlayerCombat : MonoBehaviour
 
     public void WinGame()
     {
-        cam.transform.parent = null; // Remove camera from player just to prevent errors
-        gameObject.SetActive(false); // Disabling the object instead of destroying will prevent errors
+        cam.transform.parent = null;
+        gameObject.SetActive(false); 
         gameWinUI.SetActive(true);
     }
 }

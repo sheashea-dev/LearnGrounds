@@ -1,9 +1,5 @@
 using UnityEngine;
 
-/*
-    This script provides jumping and movement in Unity 3D - Gatsby
-*/
-
 public class Player : MonoBehaviour
 {
     // Camera Rotation
