@@ -7,9 +7,6 @@ public class PlayerInventory : MonoBehaviour
     public int NumberOfItems {  get; private set; }
     public UnityEvent<PlayerInventory> OnItemsCollected;
 
-    //public GameObject gameWinUI;
-    //public Camera cam;
-
     public void ItemsCollected()
     {
         /*
