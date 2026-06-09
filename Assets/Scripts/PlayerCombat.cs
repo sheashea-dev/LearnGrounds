@@ -7,14 +7,15 @@ public class PlayerCombat : MonoBehaviour
 {
     public float maxHealth = 100f;
     public float currentHealth;
-    //public GameObject gameOverUI;
-    //public GameObject gameWinUI;
+    public GameObject gameOverUI;
+    public GameObject gameWinUI;
     public Camera cam;
     public PlayerInventory playerInventory;
+    public int totalItems;
 
     void Start()
     {
-        //gameOverUI.SetActive(false);
+        gameOverUI.SetActive(false);
         currentHealth = maxHealth;
         playerInventory = GetComponent<PlayerInventory>();
     }
@@ -26,7 +27,7 @@ public class PlayerCombat : MonoBehaviour
             PlayerDie();
         } 
 
-        if (playerInventory.NumberOfItems == 15)
+        if (playerInventory.NumberOfItems == totalItems)
         {
             WinGame();
         }
@@ -36,13 +37,13 @@ public class PlayerCombat : MonoBehaviour
     {
         cam.transform.parent = null; // Remove camera from player just to prevent errors
         gameObject.SetActive(false); // Disabling the object instead of destroying will prevent errors
-        //gameOverUI.SetActive(true);
+        gameOverUI.SetActive(true);
     }
 
     public void WinGame()
     {
         cam.transform.parent = null;
         gameObject.SetActive(false); 
-        //gameWinUI.SetActive(true);
+        gameWinUI.SetActive(true);
     }
 }
