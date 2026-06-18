@@ -536,7 +536,7 @@ Transform:
   m_GameObject: {fileID: 73560393}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.65, y: 3.39, z: 73.2}
+  m_LocalPosition: {x: 21.4, y: 3.39, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -635,7 +635,7 @@ MonoBehaviour:
   gameWinUI: {fileID: 1448828163}
   cam: {fileID: 1893591224}
   playerInventory: {fileID: 73560401}
-  totalItems: 0
+  totalItems: 1
 --- !u!1 &314332882
 GameObject:
   m_ObjectHideFlags: 0
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   playerInRange: 0
   attackDamage: 40
   playerCombat: {fileID: 73560402}
-  healthbar: {fileID: 0}
+  healthbar: {fileID: 1106435727}
 --- !u!114 &1359805670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1939,7 +1939,7 @@ Transform:
   m_GameObject: {fileID: 1359805668}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.1, y: 3.47, z: 74.11}
+  m_LocalPosition: {x: 25.1, y: 3.47, z: 74.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2769,7 +2769,7 @@ Transform:
   m_GameObject: {fileID: 2118482441}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.31, y: 3.29, z: 77.34}
+  m_LocalPosition: {x: 16.91, y: 3.29, z: 74.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2839,8 +2839,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyCombat
   playerInRange: 0
   attackDamage: 40
-  playerCombat: {fileID: 0}
-  healthbar: {fileID: 0}
+  playerCombat: {fileID: 73560402}
+  healthbar: {fileID: 1106435727}
 --- !u!114 &2118482450
 MonoBehaviour:
   m_ObjectHideFlags: 0
