@@ -1869,7 +1869,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: b78a37beaafc01f4bb19b9f8efe2b822, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3297,10 +3297,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 5988754983996001764, guid: 8dfa3a4eb68bc1b48a84ca347cb87f6f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 7001889133236541622, guid: 8dfa3a4eb68bc1b48a84ca347cb87f6f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 465339885}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3366,10 +3366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 5988754983996001764, guid: 8dfa3a4eb68bc1b48a84ca347cb87f6f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 7001889133236541622, guid: 8dfa3a4eb68bc1b48a84ca347cb87f6f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 465339885}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3492,10 +3492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 5988754983996001764, guid: 8dfa3a4eb68bc1b48a84ca347cb87f6f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 7001889133236541622, guid: 8dfa3a4eb68bc1b48a84ca347cb87f6f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 465339885}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3636,6 +3636,10 @@ PrefabInstance:
       propertyPath: gameOverUI
       value: 
       objectReference: {fileID: 680061532}
+    - target: {fileID: 4156380314326201680, guid: 3259a4501d9697744899621276e8b41e, type: 3}
+      propertyPath: totalItems
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 4156380314326201680, guid: 3259a4501d9697744899621276e8b41e, type: 3}
       propertyPath: playerInventory
       value: 

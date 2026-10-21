@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyCombat
   playerInRange: 0
-  attackDamage: 40
+  attackDamage: 10
   playerCombat: {fileID: 0}
   healthbar: {fileID: 0}
 --- !u!136 &163166588598836088

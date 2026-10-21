@@ -43,7 +43,7 @@ public class PlayerCombat : MonoBehaviour
     public void WinGame()
     {
         cam.transform.parent = null;
-        gameObject.SetActive(false); 
+        gameObject.SetActive(false);
         gameWinUI.SetActive(true);
     }
 }
