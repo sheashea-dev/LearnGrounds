@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ReloadScene : MonoBehaviour
 {
+    //public Timer timer;
     private void OnTriggerEnter(Collider other)
     {
         /*
@@ -13,6 +14,7 @@ public class ReloadScene : MonoBehaviour
         {
             Debug.Log("Scene reloaded!");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            //timer.ResetTimer();
         }
     }
 }
