@@ -329,6 +329,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  coinUiText: {fileID: 0}
+  coinSFX: {fileID: 8300000, guid: f207ece0785cd164eb58ce0797c2ba9e, type: 3}
 --- !u!114 &4156380314326201680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -341,5 +343,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a882e93607cce3448872210aa9a0dcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
-  maxHealth: 100
+  maxHealth: 300
   currentHealth: 0
+  gameOverUI: {fileID: 0}
+  gameWinUI: {fileID: 0}
+  cam: {fileID: 3703064270979978922}
+  playerInventory: {fileID: 6688143495952604711}
+  totalItems: 15

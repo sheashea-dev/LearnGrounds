@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using DG.Tweening;
+using System.Collections;
 
 public class Timer : MonoBehaviour
 {
@@ -12,6 +14,7 @@ public class Timer : MonoBehaviour
     private void Awake()
     {
         playing = true;
+        StartCoroutine(AnimateTimerCoroutine());
     }
     private void Update()
     {
@@ -37,7 +40,16 @@ public class Timer : MonoBehaviour
         }
     }
 
-    public void ResetTimer()
+    public IEnumerator AnimateTimerCoroutine()
+    {
+        while (playing == true)
+        {
+            timerText.transform.DOScale(1.1f, 0.2f).OnComplete(() => timerText.transform.DOScale(1f, 0.2f));
+            yield return new WaitForSeconds(1f);
+        }
+    }
+
+    public void ResetTimer() //not using
     {
         timer = 0f;
         int minutes = Mathf.FloorToInt(timer / 60f);
